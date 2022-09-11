@@ -1,0 +1,1 @@
+This directory contains scripts that tells you how to do preprocessing, compilation, assembly and linking using linux command line. It also has some basic c programs the prints a string into standard output
