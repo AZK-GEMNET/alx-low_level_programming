@@ -1,25 +1,20 @@
 #include "main.h"
 
 /**
- * main-Entry point(prints alphabeth 10x)
+ * print_alphabet_x10 - (prints alphabeth 10x)
  *
  * Return: 0 Always
  */
 void print_alphabet_x10(void)
 {
-	char c;
-	int i = 0;
+	int a, b;
 
-	while (i < 10)
+	for (a = 0; a <= 9; a++)
 	{
-		c = 'a';
-		while (c <= 'z')
+		for (b = 97; b <= 122; b++)
 		{
-			_putchar(c);
-			c++;
+			_putchar(b);
 		}
 		_putchar('\n');
-		i++;
 	}
-
 }
