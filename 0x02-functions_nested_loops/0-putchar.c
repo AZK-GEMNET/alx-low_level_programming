@@ -1,13 +1,11 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  * main - prints putchar
  *
  * Return: 0 (success)
  *
  */
-int show(void);
-int main()
+int main(void)
 {
 	int str [] = {95, 112, 117, 116, 99, 104, 97, 114};
 	int count, s;
