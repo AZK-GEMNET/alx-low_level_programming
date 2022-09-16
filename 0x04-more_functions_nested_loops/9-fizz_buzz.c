@@ -10,6 +10,7 @@ int main(void)
 
 	for (n = 1; n <= 100; n++)
 	{
+		putchar(' ');
 		if (n % 15 == 0)
 		{
 			printf(" FizzBuzz");
@@ -28,6 +29,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	putchar(' ');
 	return (0);
 }
