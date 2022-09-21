@@ -1,0 +1,1 @@
+This folder contain pointers, arrays and string functions and manipulations
