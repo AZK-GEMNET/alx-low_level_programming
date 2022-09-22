@@ -1,0 +1,1 @@
+This folder contains more advance pointer projects and string functions
